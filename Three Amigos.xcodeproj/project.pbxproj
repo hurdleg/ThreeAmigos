@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79B8D8F61D8C177C0088C444 /* MascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8D8F51D8C177C0088C444 /* MascotViewController.swift */; };
 		79C1D3C41D8B4F820000FC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C1D3C31D8B4F820000FC38 /* AppDelegate.swift */; };
-		79C1D3C61D8B4F820000FC38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C1D3C51D8B4F820000FC38 /* ViewController.swift */; };
 		79C1D3C91D8B4F820000FC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C1D3C71D8B4F820000FC38 /* Main.storyboard */; };
 		79C1D3CB1D8B4F820000FC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C1D3CA1D8B4F820000FC38 /* Assets.xcassets */; };
 		79C1D3CE1D8B4F820000FC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C1D3CC1D8B4F820000FC38 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79B8D8F51D8C177C0088C444 /* MascotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MascotViewController.swift; sourceTree = "<group>"; };
 		79C1D3C01D8B4F820000FC38 /* Three Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C1D3C31D8B4F820000FC38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79C1D3C51D8B4F820000FC38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79C1D3C81D8B4F820000FC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79C1D3CA1D8B4F820000FC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C1D3CD1D8B4F820000FC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				79C1D3C31D8B4F820000FC38 /* AppDelegate.swift */,
-				79C1D3C51D8B4F820000FC38 /* ViewController.swift */,
 				79C1D3C71D8B4F820000FC38 /* Main.storyboard */,
 				79C1D3CA1D8B4F820000FC38 /* Assets.xcassets */,
 				79C1D3CC1D8B4F820000FC38 /* LaunchScreen.storyboard */,
 				79C1D3CF1D8B4F820000FC38 /* Info.plist */,
+				79B8D8F51D8C177C0088C444 /* MascotViewController.swift */,
 			);
 			path = "Three Amigos";
 			sourceTree = "<group>";
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C1D3C61D8B4F820000FC38 /* ViewController.swift in Sources */,
 				79C1D3C41D8B4F820000FC38 /* AppDelegate.swift in Sources */,
+				79B8D8F61D8C177C0088C444 /* MascotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 				79C1D3D41D8B4F820000FC38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
